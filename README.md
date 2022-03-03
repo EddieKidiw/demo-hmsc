@@ -2,13 +2,14 @@ Demo Script HMSC
 ==========
 
 Require
+-----------
 
 Install php extension [HMSC](https://github.com/EddieKidiw/HMSC)
 
 Quick Start
 -----------
 
-Install the library using [composer](https://getcomposer.org):
+Install the library using [composer](https://getcomposer.org)
 
     composer require eddiekidiw/demo-hmsc
 
