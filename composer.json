@@ -1,4 +1,20 @@
 {
+"name": "EddieKidiw/demo-hmsc",
+    "type": "library",
+    "description": "Demo script php hmsc",
+    "keywords": [
+        "php",
+        "hmsc",
+        "Hide My Source Code"
+    ],
+    "authors": [
+        {
+            "name": "Eddie Kidiw"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+    },
     "autoload": {
         "psr-4": {
             "Classes\\":"root/Classes"
