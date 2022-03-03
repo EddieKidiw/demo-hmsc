@@ -1,0 +1,27 @@
+<?php
+
+namespace Classes;
+
+class Admin
+{
+    private $AdminName = null;
+    public function __construct()
+    {
+        print "In constructor ".__CLASS__."\n";
+    }
+
+    public function SetAdminName($adminname=null)
+    {
+        $this->AdminName=$adminname;
+    }
+
+    public function GetAdminName()
+    {
+        return $this->AdminName;
+    }
+
+    public function __destruct()
+    {
+        print "Destroying ".__CLASS__."\n";
+    }
+}

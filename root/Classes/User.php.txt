@@ -1,0 +1,27 @@
+<?php
+
+namespace Classes;
+
+class User
+{
+    private $UserName = null;
+    public function __construct()
+    {
+        print "In constructor ".__CLASS__."\n";
+    }
+
+    public function SetUserName($username=null)
+    {
+        $this->UserName=$username;
+    }
+
+    public function GetUserName()
+    {
+        return $this->UserName;
+    }
+
+    public function __destruct()
+    {
+        print "Destroying ".__CLASS__."\n";
+    }
+}
